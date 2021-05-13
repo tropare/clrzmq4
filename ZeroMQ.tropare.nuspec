@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+  	<id>ZeroMQ</id>
+	 	<description>ZeroMQ C# CLR namespace (.NET and mono, Windows and Linux, x86 and amd64)</description>
+
+		<version>4.1.0.31-tropare</version>
+		<authors>metadings, Pieter Hintjens, Martin Sustrik</authors>
+		<copyright>ZeroMQ</copyright>
+		<tags>clrzmq4 ZeroMQ ZMQ 0MQ ØMQ Messaging</tags>
+
+		<repository type="git" url="https://github.com/tropare/clrzmq4"  />
+
+		
+		<projectUrl>https://github.com/zeromq/clrzmq4/</projectUrl>
+		<iconUrl>https://raw.githubusercontent.com/zeromq/clrzmq4/master/ZeroMQ.ico</iconUrl>
+		<licenseUrl>https://raw.githubusercontent.com/zeromq/clrzmq4/master/LICENSE.txt</licenseUrl>
+    
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+	<files>
+		<!-- managed assembly -->
+		<file src="bin\Release\netstandard2.1\ZeroMQ.dll" target="lib\.NETStandard2.1" />
+	</files>
+</package>
+
+
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<metadata>
+		<id>ZeroMQ</id>
+		<version>4.1.0.31</version>
+		<VersionSuffix>tropare</VersionSuffix>
+		<repository type="git" url="https://github.com/tropare/clrzmq4"  />
+
+		<authors>metadings, Pieter Hintjens, Martin Sustrik</authors>
+		<projectUrl>https://github.com/zeromq/clrzmq4/</projectUrl>
+
+		<iconUrl>https://raw.githubusercontent.com/zeromq/clrzmq4/master/ZeroMQ.ico</iconUrl>
+		<licenseUrl>https://raw.githubusercontent.com/zeromq/clrzmq4/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>ZeroMQ C# CLR namespace (.NET and mono, Windows and Linux, x86 and amd64)</description>
+		<copyright>ZeroMQ</copyright>
+		<tags>clrzmq4 ZeroMQ ZMQ 0MQ ØMQ Messaging</tags>
+		<references>
+			<reference file="ZeroMQ.dll" />
+		</references>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\netstandard2.1\ZeroMQ.dll" target="lib\.NETStandard2.1" />
+	</files>
+</package> -->
