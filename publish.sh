@@ -40,27 +40,3 @@ dotnet add package ZeroMQ --version 4.1.0.31-tropare
 
 
 
-
-
-
-# -------- Dotnet package manager tool installation instructions -----
-# - Build tool package
-#dotnet pack
-#dotnet pack -p:NuspecFile=msg-bus.nuspec 
-
-
-# - Uninstall a tool
-#dotnet -d tool uninstall msg-bus
-#dotnet tool uninstall --tool-path ~/bin  msg-bus
-
-# - Install tool from named package repo directoory
-#dotnet tool install --tool-path ~/bin -v n --add-source ./nupkg msg-bus
-#dotnet tool install --tool-path ~/bin -v n msg-bus
-
-# - Push tool to github repo -
-# dotnet nuget push nupkg/msg-bus.1.0.0.nupkg -s https://nuget.pkg.github.com/tropare/index.json -k $GITHUB_PAT
-
-
-# - Turn on dotnetcore tracing
-#COREHOST_TRACE=1
-#COREHOST_TRACEFILE=/tmp/host_trace.txt
